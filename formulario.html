@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>FORMULARIO HISTORIA </h1>
+
+        <label>Grado y grupo:</label><br>
+        <input type="text" name="grupo"><br><br>
+
+        <label>¿Qué es la conciencia histórica?</label><br>
+        <textarea name="conciencia" rows="3" cols="30"></textarea><br><br>
+
+        <label>¿Te gusta aprender sobre historia?</label><br>
+        <input type="radio" name="gusta" value="si"> Sí
+        <input type="radio" name="gusta" value="no"> No<br><br>
+
+        <label>¿Qué tema histórico te interesa más?</label><br>
+        <input type="checkbox" name="tema" value="independencia"> Independencia de México<br>
+        <input type="checkbox" name="tema" value="revolucion"> Revolución Mexicana<br>
+        <input type="checkbox" name="tema" value="luna"> Llegada del ser humano a la Luna<br>
+        <input type="checkbox" name="tema" value="muro"> Caída del Muro de Berlín<br><br>
+
+        <label>¿Por qué es importante conocer la historia?</label><br>
+        <textarea name="importancia" rows="3" cols="30"></textarea><br><br>
+
+        <label>¿Qué personaje histórico admiras?</label><br>
+        <input type="text" name="personaje"><br><br>
+
+        <label>¿Dónde aprendiste sobre estos acontecimientos?</label><br>
+        <select name="aprendizaje">
+            <option value="escuela">En la escuela</option>
+            <option value="internet">En Internet</option>
+            <option value="libros">En libros</option>
+            <option value="familia">Con mi familia</option>
+        </select><br><br>
+
+        <label>¿Qué aprendiste al visitar esta página web?</label><br>
+        <textarea name="aprendizaje_pagina" rows="3" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Enviar respuestas">
+        <input type="reset" value="Borrar respuestas">
+    </form>
+
+    <br>
+    <a href="index.html">Regresar a la página principal</a>
+</body>
+</html>
